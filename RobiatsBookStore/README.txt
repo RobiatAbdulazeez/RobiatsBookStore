@@ -26,3 +26,9 @@
 
  3:32
  i also changed the nav class from the navbar-light to navbar-dark and bg-white to bg-primary
+
+ 3:36
+ i made some changes in my footer in te renderbody function and added some properties which is the text-white-50 bg-primary
+
+ 3:39
+ in my loginPartial.cshtml i removed the references to text-dark
