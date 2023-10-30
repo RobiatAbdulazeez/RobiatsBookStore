@@ -73,5 +73,28 @@
 
  5:37
  i changed my namespace in my ApplicationDB.Context to  RobiatsBookStore.DataAccess.Data
+5:38 
+Moved the models folder into my books.Models and deleted the original one
+I added the project reference in my dataAccess folder ,also renamed the models folder to ViewModels
 
- 
+5:40
+i changed the ErrorViewModels.cs namespace to the Models.ViewModels and built the project it is working 
+in my startup.cs file i have the ApplicationDbContext highlighted in red i clicked on it and it brought out suggestions adding the  .DataAccess.Data as my namespace
+
+5:50
+i had errors so i had to remove the RobiatsBookStore .Data i reviewed the browser presentation and everything was working perfectly
+
+5:52
+In the Utility project,i crweated a static detailed calss called SD.cs and modified the properties adding the public static i also added project reference in the 
+main project sellecting all the three projects  RobiatsBooksStore.DataAccess,
+ RobiatsBooksStore.Models,
+ RobiatsBooksStore.Utility
+
+ 5:55
+ in the dataAccess project i added the references to reflect Models and the utility
+ i proceeded to add the customer area to the areas but received errors
+i meen to make changes where i previously have my  ErrorViewModels to Models.ViewModels i got errors from my startup.cs and the ErrorViewModels i was supposed to 
+do that earlier
+
+6:36
+it took me some moments to figure out where to change all the defaults but it is done now all errors gone and my customer area is added to my areas
