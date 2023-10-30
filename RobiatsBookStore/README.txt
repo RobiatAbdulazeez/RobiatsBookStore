@@ -63,8 +63,15 @@
  I DELETED THE MIGRATION FOLDER IN THE DATA.ACCESS FOLDER
 
  2:20
- I tried to install the Nuget Package but it was usuccessful, issue with my namespace
+ I tried to install the Nuget Package but it was unsuccessful, issue with my namespace
 
  2:56
  mY ERRORS KEEPS INCRESING BUT I REALISED I DIDNT DOWNLOAD THE MICROSOFT.ASP.NERCORE
- i downloaded it and my errors reduced to one so i have to locate where the error is coming from
+ 
+ 5:36
+ All errors gone
+
+ 5:37
+ i changed my namespace in my ApplicationDB.Context to  RobiatsBookStore.DataAccess.Data
+
+ 
