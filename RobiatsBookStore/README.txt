@@ -41,3 +41,12 @@
 
  11:55
  in my layout.cshtml page i added the additionL stylesheet and scriptfrom the CSS_LS file provided for us
+
+ 1:19
+ IN MY SHARED LAYOUT.CSHTML FILE I ADDED A DROP DOWN NAVIGATION MENU IMMEDIATELY AFTER MY PRIVACY LINK
+
+ 1:28
+ i changed this display text from dropdown to content management
+
+ 1:29
+ I created a new project in my class library
