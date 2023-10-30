@@ -49,4 +49,18 @@
  i changed this display text from dropdown to content management
 
  1:29
- I created a new project in my class library
+ I created a new project in my class library i created three new projects in my solution folder
+ RobiatsBooksStore.DataAccess,
+ RobiatsBooksStore.Models,
+ RobiatsBooksStore.Utility
+ I copied my data folder in my project and pasted it in my  RobiatsBooksStore.DataAccess and deleted the original data folder from my project
+
+ 2:16
+ I installed the Microsoft.EntityFrameWork Core.Relational and thhe Core.sqlServer packages 
+ successfully installed
+
+ 2:18
+ I DELETED THE MIGRATION FOLDER IN THE DATA.ACCESS FOLDER
+
+ 2:20
+ I tried to install the Nuget Package but it was usuccessful, issue with my namespace
