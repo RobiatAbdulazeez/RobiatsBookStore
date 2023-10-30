@@ -32,3 +32,12 @@
 
  3:39
  in my loginPartial.cshtml i removed the references to text-dark
+
+ 2023-10-30 11:35
+ I started my project by cleaning and building the project again and everything is working perfectly
+
+ 11:42
+ in my layout.cshtml page i added the additionL stylesheet and scriptfrom the CSS_LS file provided for us
+
+ 11:55
+ in my layout.cshtml page i added the additionL stylesheet and scriptfrom the CSS_LS file provided for us
