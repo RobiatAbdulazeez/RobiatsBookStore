@@ -98,3 +98,31 @@ do that earlier
 
 6:36
 it took me some moments to figure out where to change all the defaults but it is done now all errors gone and my customer area is added to my areas
+
+6:37
+i changed the routes in the startup.cs like the one outlined in my scaffolding readme adding  {area:exists}
+i moved the HomecONTROLLER.CS TO THE ARE IN THE CUSTOMERS FOLDER AND I DELETED THE dATA AND mODELS FOLDERS
+
+6:38
+I EDITED THE homeController.cs to explicitly define the controller in the customer Area
+6:40
+I moved the view,home and i modified the HomeController namesace to add the RobiatBookStore.Controllers
+
+6:42
+i ran the application and the error i got is entirely different from what i am supposed to get
+it says cant locate localhost
+
+7:00
+i figured it out,in my startup.cs i was supposed  to direct my area to the customer,instead of this {area:exists}
+i was supposed to have this {area:Customer}
+
+7:03
+i moved my view import and the viewStart to the customer Area
+i modified the viewStart.cshtml  to reflect the new path and i ran the application and it is working perfectly
+
+7:10
+in my area i added a new admin area and copied and pasted my viewimport.cshtml and the viewstart.cshtml 
+
+7:15
+i deleted the data and models folder and also deleted the controllers folder 
+DONE!!!
