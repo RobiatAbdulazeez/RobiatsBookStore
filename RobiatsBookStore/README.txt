@@ -126,3 +126,17 @@ in my area i added a new admin area and copied and pasted my viewimport.cshtml a
 7:15
 i deleted the data and models folder and also deleted the controllers folder 
 DONE!!!
+
+2023-10-31 2:47
+i started my part twofor the assignment 2
+i cleaned and rebuilt my application and everything works perfectly
+
+2:45
+i went to my appsettings.json file and reviewed the code in it,i also changed the database name to Database=RobiatsBookStore and i saved it in my manager consOle
+
+2:50
+i added the migration using add-migration AddDefaultIdentityMigration but i got an error because my default project is the RobiatsBookStore instead of the DataAccess project folder
+I RAN THE COMMAND AGAIN AND THE MIGRATION IS INSTALLED SUCCESSFULLY
+
+2:59
+the new migration added name is 20231031185239_AddDefaultIdentityMigration.cs
