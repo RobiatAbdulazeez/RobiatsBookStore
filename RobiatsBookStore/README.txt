@@ -140,3 +140,13 @@ I RAN THE COMMAND AGAIN AND THE MIGRATION IS INSTALLED SUCCESSFULLY
 
 2:59
 the new migration added name is 20231031185239_AddDefaultIdentityMigration.cs
+i went through the migration file and the tables created by the migration
+
+3:06
+i updated the database and it was successful
+
+3:20
+i created a category model in my model project and i modified it 
+
+3:25
+I added the migration in my PM Console to update my database   20231031192744_AddCategoryToDb.Designer STOP FOR NOW
