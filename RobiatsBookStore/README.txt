@@ -153,6 +153,9 @@ I added the migration in my PM Console to update my database   20231031192744_Ad
 
 
 
+
+
+
 2023-11-3 3:00
 
 started by cleaning and buliding my project and also to run to see if everything is working perfectly
@@ -197,4 +200,21 @@ I modified the code provided to me to create the constructors and dependency inj
 it fixed it through the using statements 
 
 4:30
- next start point is using the file provided in the assignment 2 folder to modify the repository.cs file
+I used the file provided in the assignment 2 folder to modify the repository.cs file to create the constructors and dependency
+injection DI
+
+4:32
+I CREATED INDIVIDUAL REPOS FOR CATEGORY AND THE POTENTIAL MODELS TO BE ADDED 
+
+4:35
+I created the CategoryRepository.cs and the IRepository.cs
+
+4:50
+I modified the CategoryRepository changed the using statements to specify my project
+
+4:53
+I also modified the ICategoryRepository interface 
+
+5:00
+i completeed the remaining modifications,built the project and everything is working perfectly
+
