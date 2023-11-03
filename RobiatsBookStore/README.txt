@@ -150,3 +150,29 @@ i created a category model in my model project and i modified it
 
 3:25
 I added the migration in my PM Console to update my database   20231031192744_AddCategoryToDb.Designer STOP FOR NOW
+
+
+
+2023-11-3 3:00
+
+started by cleaning and buliding my project and also to run to see if everything is working perfectly
+
+3:15 
+i started by re-running the add-migration in my PM but i had errors and the building failed
+could not access the category class
+
+3:20
+I went back to check what i did wrong in mycategory.cs file and realised i didnt ADD PUBLIC TO THE CLASS CATEGORY
+
+3:30
+ I DECIDE TO RUN THE add-migration again and i got the duplication error
+
+ 3:32
+ I had to delete the migration previously added in my migration folder and run the command again
+
+
+ 3:35
+ it is successful  the migration 20231103193916_AddCategoryToDb successfully added
+
+ 3:40
+ i updated the database and my categories table has beem added to the database
