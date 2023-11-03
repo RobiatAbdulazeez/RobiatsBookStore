@@ -175,4 +175,26 @@ I went back to check what i did wrong in mycategory.cs file and realised i didnt
  it is successful  the migration 20231103193916_AddCategoryToDb successfully added
 
  3:40
- i updated the database and my categories table has beem added to the database
+ i updated the database and my categories table has been added to the database'
+
+ 3:45
+ i started the part 2.2 which is building the repository
+ i added a new folder in my project.dataAccess which is the repository folder and in my repository folder
+ i created another folder which is the IRepository folder
+    
+3:50 
+in my IRepository folder i created an interface class named IRepository.cs and added the new item in my project.DataAccess.csproj file
+
+3:55
+I modified my IRepository.cs file so that i can perform the CRUD operations and also made changes in the using statement
+
+4:00
+IN MY REPOSITORY FOLDER I CREATED A rEPOSITORY.CS class 
+i implemented the using statement and used the implement interface to fix my issues
+
+4:15
+I modified the code provided to me to create the constructors and dependency injection i was having little error so i used the suggested solutions and 
+it fixed it through the using statements 
+
+4:30
+ next start point is using the file provided in the assignment 2 folder to modify the repository.cs file
