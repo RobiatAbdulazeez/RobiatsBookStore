@@ -226,4 +226,11 @@ after that i added a connection to the database and also updated the implemetati
 i added the wrapper for the unit of work I CREATED A CLASS IN MY REPOSITORY CALLED unitsOfWorks and also created an interface in my IRepository called IUnitsOfWork
 iupdated the code and modified the code to make sure the public class implements the interface UnitOfWork : IUnitOfWork
 
+3:00
+to mAKE IT ACCESSIBLE I WENT TO THE sTARTUP.CS in the ConfigureServices method  and added this  services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+3:15
+I had errors when i added this code .AddScoped<IUnitOfWork, UnitOfWork>(); in my startup.cs file and i figured out i didnt add public at the 
+beginning of the interface in my IUnitOf Work.cs
+
 
