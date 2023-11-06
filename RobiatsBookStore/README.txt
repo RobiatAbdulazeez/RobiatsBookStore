@@ -152,10 +152,6 @@ i created a category model in my model project and i modified it
 I added the migration in my PM Console to update my database   20231031192744_AddCategoryToDb.Designer STOP FOR NOW
 
 
-
-
-
-
 2023-11-3 3:00
 
 started by cleaning and buliding my project and also to run to see if everything is working perfectly
@@ -217,4 +213,17 @@ I also modified the ICategoryRepository interface
 
 5:00
 i completeed the remaining modifications,built the project and everything is working perfectly
+
+2023-11-6 12:00
+I started by cleaning and building my project and everything works perfectly.i started by creating the interface class in my repository folder
+called ISP_Call.cs which extends the IDisposable i included the methods shown and installed the NuGet package for the Dapper
+
+12:10
+i added a new class called the SP_Call.cs in the repository folder and selected the appropriate using statement and implemented the ISP_Call interface
+after that i added a connection to the database and also updated the implemetation of the ISP_Call interface
+
+12:40
+i added the wrapper for the unit of work I CREATED A CLASS IN MY REPOSITORY CALLED unitsOfWorks and also created an interface in my IRepository called IUnitsOfWork
+iupdated the code and modified the code to make sure the public class implements the interface UnitOfWork : IUnitOfWork
+
 
