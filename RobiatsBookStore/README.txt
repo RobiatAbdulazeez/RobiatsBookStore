@@ -231,6 +231,20 @@ to mAKE IT ACCESSIBLE I WENT TO THE sTARTUP.CS in the ConfigureServices method  
 
 3:15
 I had errors when i added this code .AddScoped<IUnitOfWork, UnitOfWork>(); in my startup.cs file and i figured out i didnt add public at the 
-beginning of the interface in my IUnitOf Work.cs
+beginning of the interface in my IUnitOf Work.cs everything is working perfectly now
+
+3:30
+in my controllers folder i added annew controller class called the categoryController.cs,i modified the code using the IUnitOfWork form the DataAccess project and
+the IRepository folder adding the using RobiatsBooks.DataAccess.Repository.IRepository;
+
+4:00
+I added a new folder under my Areas/Views called Category and inside the category folder i created a new Index Razor view
+and i used the code provided to edit the index.cshtml page for the layout
+
+4:10
+I edited the_layout.cshtml page to display my category button on the index page  i then moved the category link to the content management drop down
+I reviewed the code and everything is working perfectly
+
+
 
 
